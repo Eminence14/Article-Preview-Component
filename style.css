@@ -81,6 +81,10 @@ img#share {
     padding: 8px;
     border-radius: 30px;
     margin-left: auto;
+    transition-duration: 0.4s;
+}
+img#share:hover {
+    transform: scale(70%, 100%) translate(3px, -5px) rotateZ(270deg);
 }
 .foot_replace {
     background-color: var(--darkGrayBlue);
