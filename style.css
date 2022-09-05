@@ -1,0 +1,119 @@
+:root {
+    --darkGrayBlue: hsl(217, 19%, 35%);
+    --darkBlue: hsl(214, 17%, 51%);
+    --grayBlue: hsl(212, 23%, 69%);
+    --lightGrayBlue: #ecf2f8;
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('/assets/fonts/static/Manrope-Regular.ttf');
+}
+
+body {
+    background-color: var(--lightGrayBlue);
+    font-family: Manrope;
+    /* font-size: 13px; */
+}
+.container {
+    padding: 70px 20px;
+
+}
+img#drawer {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 3.5px;
+}
+
+.description {
+    padding: 35px 35px 0px 35px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 20px -12px var(--darkGrayBlue);
+}
+
+h4#title {
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: var(--darkGrayBlue);
+    margin-bottom: 12px;
+}
+p#cta {
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--darkBlue)
+}
+.foot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.foot img#michelle {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.info {
+    font-size: 13px;
+    margin-left: 20px;
+}
+.info h4 {
+    color: var(--darkGrayBlue);
+    letter-spacing: 1.1px;
+}
+p#date {
+    margin-top: 3px;
+    color: var(--grayBlue);
+}
+img#share {
+    background-color: var(--lightGrayBlue);
+    padding: 8px;
+    border-radius: 30px;
+    margin-left: auto;
+}
+.foot_replace {
+    background-color: var(--darkGrayBlue);
+    margin: 0px -35px 0px -35px;
+    height: 70px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 13px;
+}
+img#share2 {
+    background-color: var(--darkBlue);
+    padding: 8px;
+    width: 15px;
+    border-radius: 30px;
+    margin-left: auto;
+}
+p#foot2share {
+    color: var(--lightGrayBlue);
+    letter-spacing: 6px;
+    font-size: 0.9em;
+}
+img#facebook {
+    margin-left: 22px;
+}
+.foot_replace img {
+    width: 100%;
+    max-width: 7%;
+    margin-left: 15px;
+    transition-duration: 0.2s;
+}
+.foot_replace img:hover {
+    transform: scale(80%, 80%) translateY(3px);
+}
