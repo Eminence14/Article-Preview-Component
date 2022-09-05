@@ -117,3 +117,38 @@ img#facebook {
 .foot_replace img:hover {
     transform: scale(80%, 80%) translateY(3px);
 }
+
+/* Pseudo Tablet Styles */
+@media screen and (min-width: 550px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+    .container {
+        padding-top: 150px;
+        max-width: 1000px;
+        display: flex;
+    }
+    img#drawer {
+        position: relative;
+        top: 0px;
+        border-radius: 10px 0px 0px 10px;
+        height: 330px;
+        max-width: 50%;
+    }
+    h4#title {
+        font-size: 1.1em;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+    p#cta {
+        font-size: 0.8em;
+    }
+}
