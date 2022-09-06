@@ -84,7 +84,7 @@ img#share {
     transition-duration: 0.4s;
 }
 img#share:hover {
-    transform: scale(70%, 100%) translate(3px, -5px) rotateZ(270deg);
+    transform: scale(80%, 100%) translate(3px, -5px) rotateZ(-45deg);
 }
 .foot_replace {
     background-color: var(--darkGrayBlue);
@@ -104,7 +104,7 @@ img#share2 {
     border-radius: 30px;
     margin-left: auto;
 }
-p#foot2share {
+.footShare {
     color: var(--lightGrayBlue);
     letter-spacing: 6px;
     font-size: 0.9em;
@@ -114,7 +114,7 @@ img#facebook {
 }
 .foot_replace img {
     width: 100%;
-    max-width: 7%;
+    max-width: 5%;
     margin-left: 15px;
     transition-duration: 0.2s;
 }
@@ -154,5 +154,26 @@ img#facebook {
     }
     p#cta {
         font-size: 0.8em;
+    }
+    .foot_replace3 {
+        padding: 15px 30px;
+        background-color: var(--darkGrayBlue);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        width: 180px;
+        position: relative;
+        bottom: 120px;
+        left: 365px;
+        box-shadow: 1px 1px 25px -3px var(--darkGrayBlue);
+    }
+    p#foot3share {
+        font-size: 0.7em;
+    }
+    div#arrow {
+        position: absolute;
+        top: 41px;
+        right: 28px;
     }
 }
